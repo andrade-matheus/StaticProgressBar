@@ -61,6 +61,13 @@ class _StaticProgressBarState extends State<StaticProgressBar> with SingleTicker
   @override
   Widget build(BuildContext context) {
     return Container(
+      decoration: BoxDecoration(
+        boxShadow: [BoxShadow(
+          color: Colors.black26,
+          blurRadius: 10.0,
+          offset: Offset(0.0, 0.0),
+        )]
+      ),
       width: widget.width,
       height: widget.height,
       padding: EdgeInsets.fromLTRB(0, 0, 0, 0),
