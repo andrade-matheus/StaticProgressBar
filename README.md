@@ -16,4 +16,7 @@ StaticProgressBar(
         animationDuration: 1000,
       )
 ```
-![Screenshsot](https://github.com/andrade-matheus/StaticProgressBar/blob/master/screenshot/test_screenshot.jpg)
+
+<p align="center">
+<img src="https://github.com/andrade-matheus/StaticProgressBar/blob/master/screenshot/test_screenshot.jpg" width="230px"/>
+</p>
