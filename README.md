@@ -6,14 +6,14 @@ A rounded rectangle static progress bar widget in Flutter.
 
 ```dart
 StaticProgressBar(
-        percent: percent,
+        percent: 0.8,
         width: 250,
         height: 50,
-        backgroundColor: Colors.black26,
-        progressColor: Colors.purple,
-        centerText: Text("Test"),
+        backgroundColor: Colors.black12,
+        progressColor: Colors.blue,
+        centerText: Text("80 %"),
         animation: true,
         animationDuration: 1000,
-        )
+      )
 ```
-
+![Screenshsot](https://github.com/andrade-matheus/StaticProgressBar/blob/master/screenshot/test_screenshot.jpeg)

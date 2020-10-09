@@ -63,7 +63,7 @@ class _StaticProgressBarState extends State<StaticProgressBar> with SingleTicker
     return Container(
       decoration: BoxDecoration(
         boxShadow: [BoxShadow(
-          color: Colors.black26,
+          color: Colors.black12,
           blurRadius: 10.0,
           offset: Offset(0.0, 0.0),
         )]

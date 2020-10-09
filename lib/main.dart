@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Static Progress Bar',
       theme: ThemeData(
-        primarySwatch: Colors.purple,
+        primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       home: MyHomePage(title: 'Test Progress Bar'),
@@ -42,16 +42,29 @@ class _MyHomePageState extends State<MyHomePage> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
+              Spacer(flex: 3),
               StaticProgressBar(
-                percent: percent,
+                percent: 0.8,
                 width: 250,
                 height: 50,
-                backgroundColor: Colors.black26,
-                progressColor: Colors.purple,
-                centerText: Text("Test"),
+                backgroundColor: Colors.black12,
+                progressColor: Colors.blue,
+                centerText: Text("80 %"),
                 animation: true,
                 animationDuration: 1000,
-              )
+              ),
+              Spacer(flex: 1),
+              StaticProgressBar(
+                percent: 0.5,
+                width: 250,
+                height: 50,
+                backgroundColor: Colors.black12,
+                progressColor: Colors.blue,
+                centerText: Text("5 / 10"),
+                animation: true,
+                animationDuration: 1000,
+              ),
+              Spacer(flex: 3),
             ],
           ),
         ));
